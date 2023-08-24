@@ -26,4 +26,17 @@ source ~/ryan-master/cws/devel/setup.bash
 rosrun ryan_sample fer_listener.py
 ```
 
+## Arms
+You can control the arms by sending a gesture command
+```
+source ~/ryan-master/cws/devel/setup.bash
+rosrun ryan_sample arms.py
+```
+
+## Neck
+You can control the neck by sending predefined gestures or sending exact values for each motor (defined as posture in the example code), or both at the same time.
+```
+source ~/ryan-master/cws/devel/setup.bash
+rosrun ryan_sample neck.py
+```
 

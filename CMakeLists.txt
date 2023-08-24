@@ -169,6 +169,8 @@ catkin_install_python(PROGRAMS
   scripts/say.py
   scripts/fer_listener.py
   scripts/listen.py
+  scripts/arms.py
+  scripts/neck.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
