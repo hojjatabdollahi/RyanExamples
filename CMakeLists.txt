@@ -171,6 +171,7 @@ catkin_install_python(PROGRAMS
   scripts/listen.py
   scripts/arms.py
   scripts/neck.py
+  scripts/expression.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
